@@ -7,7 +7,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <h1 id='heading'> GIT RECON </h1>
+    <p id='para'> A tool for github reconnaissance,<br/> provides you a detailed data about a queried user in accordance with your input. </p>
+    <App/>
   </React.StrictMode>
 );
 
